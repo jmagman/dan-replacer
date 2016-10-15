@@ -3,4 +3,4 @@ A [Word Replacer II](https://chrome.google.com/webstore/detail/word-replacer-ii/
 
 In the extension's settings, paste the [replacement settings](settings.json) and hit "Import".
 
-Slammin.
+Kick back, and enjoy a tasty margarita, friend. Goodbye.

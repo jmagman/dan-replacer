@@ -2,53 +2,53 @@
   "version": "2.0.10",
   "replacements": [
     {
-      "active": true,
-      "case": "Maintain",
-      "repA": "restaurant",
+      "repA": "/(restaurant|bar)/",
       "repB": "joint",
-      "type": "Simple"
-    },
-    {
-      "repA": "/((\\w{3,}))+a\\b/i",
-      "repB": "\\1er",
       "type": "RegEx",
       "case": "Maintain",
       "active": true
     },
     {
-      "repA": "/(good|great)/",
+      "active": true,
+      "case": "Maintain",
+      "repA": "/((\\w{3,}))+a\\b/i",
+      "repB": "\\1er",
+      "type": "RegEx"
+    },
+    {
+      "repA": "/(good|great|tasty|excellent)/",
       "repB": "slammin",
       "type": "RegEx",
       "case": "Maintain",
       "active": true
     },
     {
+      "active": true,
+      "case": "Maintain",
       "repA": "hometown",
       "repB": "back east",
-      "type": "Simple",
-      "case": "Maintain",
-      "active": true
+      "type": "Simple"
     },
     {
+      "active": true,
+      "case": "Maintain",
       "repA": "friend",
       "repB": "motherfucker",
-      "type": "Simple",
-      "case": "Maintain",
-      "active": true
+      "type": "Simple"
     },
     {
+      "active": true,
+      "case": "Maintain",
       "repA": "how are you",
       "repB": "what's happenin",
-      "type": "Simple",
-      "case": "Maintain",
-      "active": true
+      "type": "Simple"
     },
     {
+      "active": true,
+      "case": "Maintain",
       "repA": "goodbye",
       "repB": "later",
-      "type": "Simple",
-      "case": "Maintain",
-      "active": true
+      "type": "Simple"
     }
   ]
 }
