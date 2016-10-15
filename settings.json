@@ -2,7 +2,7 @@
   "version": "2.0.10",
   "replacements": [
     {
-      "repA": "/(restaurant|bar)/",
+      "repA": "/(\\brestaurant|bar\\b)/",
       "repB": "joint",
       "type": "RegEx",
       "case": "Maintain",
@@ -16,11 +16,11 @@
       "type": "RegEx"
     },
     {
+      "active": true,
+      "case": "Maintain",
       "repA": "/(good|great|tasty|excellent)/",
       "repB": "slammin",
-      "type": "RegEx",
-      "case": "Maintain",
-      "active": true
+      "type": "RegEx"
     },
     {
       "active": true,
@@ -30,11 +30,11 @@
       "type": "Simple"
     },
     {
-      "active": true,
+      "active": true
       "case": "Maintain",
-      "repA": "friend",
+      "repA": "/(\\bfriend\\b)/",
       "repB": "motherfucker",
-      "type": "Simple"
+      "type": "RegEx",
     },
     {
       "active": true,
