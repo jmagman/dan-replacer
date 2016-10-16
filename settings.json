@@ -18,7 +18,7 @@
     {
       "active": true,
       "case": "Maintain",
-      "repA": "/(good|great|tasty|excellent|marvelous|satisfying|superb|wonderful|pleasing|deluxe)/",
+      "repA": "/\\b(good|great|tasty|excellent|marvelous|satisfying|superb|wonderful|pleasing|deluxe)\\b/",
       "repB": "slammin",
       "type": "RegEx"
     },
@@ -46,14 +46,14 @@
     {
       "active": true,
       "case": "Maintain",
-      "repA": "/\\b(a|the) (girl|woman|lady)/",
+      "repA": "/\\ba (girl|woman)/",
       "repB": "some broad",
       "type": "RegEx"
     },
     {
       "active": true,
       "case": "Maintain",
-      "repA": "/\\b(girl|woman|lady)\\b)",
+      "repA": "/\\b(girl|woman)\\b/",
       "repB": "broad",
       "type": "RegEx"
     },
