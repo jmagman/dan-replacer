@@ -30,11 +30,18 @@
       "type": "Simple"
     },
     {
-      "active": true
+      "active": true,
       "case": "Maintain",
       "repA": "/(\\bfriend\\b)/",
       "repB": "motherfucker",
-      "type": "RegEx",
+      "type": "RegEx"
+    },
+    {
+      "active": true,
+      "case": "Maintain",
+      "repA": "/(\\bgirl\\b)/",
+      "repB": "broad",
+      "type": "RegEx"
     },
     {
       "active": true,
