@@ -4,7 +4,7 @@
     {
       "active": true,
       "case": "Maintain",
-      "repA": "/(\\brestaurant|bar|cafeteria|diner\\b)/",
+      "repA": "/\\b(restaurant|bar|cafeteria|diner)\\b/",
       "repB": "joint",
       "type": "RegEx"
     },
@@ -32,14 +32,14 @@
     {
       "active": true,
       "case": "Maintain",
-      "repA": "/(\\bfriend\\b)/",
+      "repA": "/\\bfriend\\b/",
       "repB": "motherfucker",
       "type": "RegEx"
     },
     {
       "active": true,
       "case": "Maintain",
-      "repA": "/(\\bfriends\\b)/",
+      "repA": "/\\bfriends\\b/",
       "repB": "motherfuckers",
       "type": "RegEx"
     },
@@ -53,14 +53,14 @@
     {
       "active": true,
       "case": "Maintain",
-      "repA": "/(\\b(girl|woman|lady)\\b)/",
+      "repA": "/\\b(girl|woman|lady)\\b)",
       "repB": "broad",
       "type": "RegEx"
     },
     {
       "active": true,
       "case": "Maintain",
-      "repA": "/(\\b(girls|women|ladies)\\b)/",
+      "repA": "/\\b(girls|women|ladies)\\b/",
       "repB": "broads",
       "type": "RegEx"
     },
