@@ -2,23 +2,23 @@
   "version": "2.0.10",
   "replacements": [
     {
-      "repA": "/(\\brestaurant|bar\\b)/",
-      "repB": "joint",
-      "type": "RegEx",
+      "active": true,
       "case": "Maintain",
-      "active": true
+      "repA": "/(\\brestaurant|bar|cafeteria|diner\\b)/",
+      "repB": "joint",
+      "type": "RegEx"
     },
     {
       "active": true,
       "case": "Maintain",
-      "repA": "/((\\w{3,}))+a\\b/i",
+      "repA": "/((\\w{4,}))+a\\b/i",
       "repB": "\\1er",
       "type": "RegEx"
     },
     {
       "active": true,
       "case": "Maintain",
-      "repA": "/(good|great|tasty|excellent)/",
+      "repA": "/(good|great|tasty|excellent|marvelous|satisfying|superb|wonderful|pleasing|deluxe)/",
       "repB": "slammin",
       "type": "RegEx"
     },
@@ -39,8 +39,29 @@
     {
       "active": true,
       "case": "Maintain",
-      "repA": "/(\\bgirl\\b)/",
+      "repA": "/(\\bfriends\\b)/",
+      "repB": "motherfuckers",
+      "type": "RegEx"
+    },
+    {
+      "active": true,
+      "case": "Maintain",
+      "repA": "/\\b(a|the) (girl|woman|lady)/",
+      "repB": "some broad",
+      "type": "RegEx"
+    },
+    {
+      "active": true,
+      "case": "Maintain",
+      "repA": "/(\\b(girl|woman|lady)\\b)/",
       "repB": "broad",
+      "type": "RegEx"
+    },
+    {
+      "active": true,
+      "case": "Maintain",
+      "repA": "/(\\b(girls|women|ladies)\\b)/",
+      "repB": "broads",
       "type": "RegEx"
     },
     {
