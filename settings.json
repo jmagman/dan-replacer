@@ -81,36 +81,36 @@
     {
       "active": true,
       "case": "Maintain",
-      "repA": "place.",
-      "repB": "joint.",
+      "repA": " place.",
+      "repB": " joint.",
       "type": "Simple"
     },
     {
       "active": true,
       "case": "Maintain",
-      "repA": "place is",
-      "repB": "joint is",
+      "repA": " place is",
+      "repB": " joint is",
       "type": "Simple"
     },
     {
       "active": true,
       "case": "Maintain",
-      "repA": "place was",
-      "repB": "joint was",
+      "repA": " place was",
+      "repB": " joint was",
       "type": "Simple"
     },
     {
       "active": true,
       "case": "Maintain",
-      "repA": "place has",
-      "repB": "joint has",
+      "repA": " place has",
+      "repB": " joint has",
       "type": "Simple"
     },
     {
       "active": true,
       "case": "Maintain",
-      "repA": "place,",
-      "repB": "joint,",
+      "repA": " place,",
+      "repB": " joint,",
       "type": "Simple"
     }
   ]
