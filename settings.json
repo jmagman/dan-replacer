@@ -77,6 +77,41 @@
       "repA": "goodbye",
       "repB": "later",
       "type": "Simple"
+    },
+    {
+      "active": true,
+      "case": "Maintain",
+      "repA": " place.",
+      "repB": " joint.",
+      "type": "Simple"
+    },
+    {
+      "active": true,
+      "case": "Maintain",
+      "repA": " place is",
+      "repB": " joint is",
+      "type": "Simple"
+    },
+    {
+      "active": true,
+      "case": "Maintain",
+      "repA": " place was",
+      "repB": " joint was",
+      "type": "Simple"
+    },
+    {
+      "active": true,
+      "case": "Maintain",
+      "repA": " place has",
+      "repB": " joint has",
+      "type": "Simple"
+    },
+    {
+      "active": true,
+      "case": "Maintain",
+      "repA": " place,",
+      "repB": " joint,",
+      "type": "Simple"
     }
   ]
 }
